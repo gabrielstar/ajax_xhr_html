@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="data:;base64,=">
+        <title>Asynchronous JS and XML example</title>
+    </head>
+    <body >
+        <h2>Example of asynchronous page (Single Page App)</h2>
+        <h2>The XMLHttpRequest Object Example</h2>
+        <p id="header">Place your search</p>
+           <form id="searchForm">
+            Search: <input type='text' name='searchPhrase' value='user'/>
+            <!-- This prevent reload of page onclick -->
+            <button type="button" id="searchButton">Search</button>
+         </form>
+
+            <div id='searchResults'><p id="message">No search results yet</p></div>
+            <script type="text/javascript" src="ajax_by_xhr.js"></script>
+
+    </body>
+
+</html>
